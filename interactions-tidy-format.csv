@@ -1,0 +1,182 @@
+"","label","node","genus","species","scientificname.y","virus_name","vtaxid","interaction","uid","mostaxid","virus_code"
+"1","Anopheles_apoci",1,"Anopheles","apoci","Anopheles apoci",NA,NA,NA,262008,262008,NA
+"2","Anopheles_superpictus",2,"Anopheles","superpictus","Anopheles superpictus",NA,NA,NA,262673,262673,NA
+"3","Anopheles_turkhudi",3,"Anopheles","turkhudi","Anopheles turkhudi",NA,NA,NA,262672,262672,NA
+"4","Ochlerotatus_cyprius",4,"Ochlerotatus","cyprius","Ochlerotatus cyprius",NA,NA,NA,662895,662895,NA
+"5","Aedes_echinus",5,"Aedes","echinus","Aedes echinus",NA,NA,NA,2575619,2575619,NA
+"6","Anopheles_ainshamsi",6,"Anopheles","ainshamsi","Anopheles ainshamsi",NA,NA,NA,622773,622773,NA
+"7","Ochlerotatus_eatoni_hewitti_(nomen_nudum)",7,"Ochlerotatus","eatoni","Ochlerotatus eatoni",NA,NA,NA,1712862,1712862,NA
+"8","Acartomyia_mariae",8,"Acartomyia","mariae","Acartomyia mariae",NA,NA,NA,120875,120875,NA
+"9","Orthopodomyia_pulcripalpis",9,"Orthopodomyia","pulcripalpis","Orthopodomyia pulcripalpis","West Nile virus",11082,1,665338,665338,"WNV"
+"10","Uranotaenia_unguiculata",10,"Uranotaenia","unguiculata","Uranotaenia unguiculata","Japanese encephalitis virus",11072,1,559294,559294,"JEV"
+"11","Uranotaenia_unguiculata",10,"Uranotaenia","unguiculata","Uranotaenia unguiculata","West Nile virus",11082,1,559294,559294,"WNV"
+"12","Aedes_aegypti",11,"Aedes","aegypti","Aedes aegypti","Dengue virus 1",11053,1,7159,7159,"DNV1"
+"13","Aedes_aegypti",11,"Aedes","aegypti","Aedes aegypti","Dengue virus 2",11060,1,7159,7159,"DNV2"
+"14","Aedes_aegypti",11,"Aedes","aegypti","Aedes aegypti","Dengue virus 3",11069,1,7159,7159,"DNV3"
+"15","Aedes_aegypti",11,"Aedes","aegypti","Aedes aegypti","Dengue virus 4",11070,1,7159,7159,"DNV4"
+"16","Aedes_aegypti",11,"Aedes","aegypti","Aedes aegypti","Murray Valley encephalitis virus",11079,1,7159,7159,"MVEV"
+"17","Aedes_aegypti",11,"Aedes","aegypti","Aedes aegypti","Saint Louis encephalitis virus",11080,1,7159,7159,"SLEV"
+"18","Aedes_aegypti",11,"Aedes","aegypti","Aedes aegypti","West Nile virus",11082,1,7159,7159,"WNV"
+"19","Aedes_aegypti",11,"Aedes","aegypti","Aedes aegypti","Yellow fever virus",11089,1,7159,7159,"YFV"
+"20","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","Dengue virus 1",11053,1,7160,7160,"DNV1"
+"21","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","Dengue virus 2",11060,1,7160,7160,"DNV2"
+"22","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","Dengue virus 3",11069,1,7160,7160,"DNV3"
+"23","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","Dengue virus 4",11070,1,7160,7160,"DNV4"
+"24","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","Japanese encephalitis virus",11072,1,7160,7160,"JEV"
+"25","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","Murray Valley encephalitis virus",11079,1,7160,7160,"MVEV"
+"26","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","Saint Louis encephalitis virus",11080,1,7160,7160,"SLEV"
+"27","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","West Nile virus",11082,1,7160,7160,"WNV"
+"28","Aedes_albopictus",12,"Aedes","albopictus","Aedes albopictus","Yellow fever virus",11089,1,7160,7160,"YFV"
+"29","Aedes_vittatus",13,"Aedes","vittatus","Aedes vittatus","Japanese encephalitis virus",11072,1,317808,317808,"JEV"
+"30","Aedes_vittatus",13,"Aedes","vittatus","Aedes vittatus","West Nile virus",11082,1,317808,317808,"WNV"
+"31","Aedes_vittatus",13,"Aedes","vittatus","Aedes vittatus","Yellow fever virus",11089,1,317808,317808,"YFV"
+"32","Aedes_vexans",14,"Aedes","vexans","Aedes vexans","Japanese encephalitis virus",11072,1,7163,7163,"JEV"
+"33","Aedes_vexans",14,"Aedes","vexans","Aedes vexans","Murray Valley encephalitis virus",11079,1,7163,7163,"MVEV"
+"34","Aedes_vexans",14,"Aedes","vexans","Aedes vexans","Saint Louis encephalitis virus",11080,1,7163,7163,"SLEV"
+"35","Aedes_vexans",14,"Aedes","vexans","Aedes vexans","West Nile virus",11082,1,7163,7163,"WNV"
+"36","Ochlerotatus_nigrinus",15,"Ochlerotatus","nigrinus","Ochlerotatus nigrinus",NA,NA,NA,1788512,1788512,NA
+"37","Ochlerotatus_sticticus",16,"Ochlerotatus","sticticus","Ochlerotatus sticticus","Japanese encephalitis virus",11072,1,120878,120878,"JEV"
+"38","Ochlerotatus_sticticus",16,"Ochlerotatus","sticticus","Ochlerotatus sticticus","West Nile virus",11082,1,120878,120878,"WNV"
+"39","Ochlerotatus_refiki",17,"Ochlerotatus","refiki","Ochlerotatus refiki",NA,NA,NA,1788513,1788513,NA
+"40","Ochlerotatus_rusticus",18,"Ochlerotatus","rusticus","Ochlerotatus rusticus","West Nile virus",11082,1,120877,120877,"WNV"
+"41","Aedes_cretinus",19,"Aedes","cretinus","Aedes cretinus","Japanese encephalitis virus",11072,1,240003,240003,"JEV"
+"42","Aedes_cretinus",19,"Aedes","cretinus","Aedes cretinus","West Nile virus",11082,1,240003,240003,"WNV"
+"43","Culex_antennatus",20,"Culex","antennatus","Culex antennatus",NA,NA,NA,911293,911293,NA
+"44","Culiseta_longiareolata",21,"Culiseta","longiareolata","Culiseta longiareolata","Japanese encephalitis virus",11072,1,1206072,1206072,"JEV"
+"45","Culiseta_longiareolata",21,"Culiseta","longiareolata","Culiseta longiareolata","West Nile virus",11082,1,1206072,1206072,"WNV"
+"46","Culex_simpsoni",22,"Culex","simpsoni","Culex simpsoni",NA,NA,NA,1799676,1799676,NA
+"47","Culex_univittatus",23,"Culex","univittatus","Culex univittatus","Japanese encephalitis virus",11072,1,420550,420550,"JEV"
+"48","Culex_univittatus",23,"Culex","univittatus","Culex univittatus","Murray Valley encephalitis virus",11079,1,420550,420550,"MVEV"
+"49","Culex_univittatus",23,"Culex","univittatus","Culex univittatus","Saint Louis encephalitis virus",11080,1,420550,420550,"SLEV"
+"50","Culex_univittatus",23,"Culex","univittatus","Culex univittatus","West Nile virus",11082,1,420550,420550,"WNV"
+"51","Culex_univittatus",23,"Culex","univittatus","Culex univittatus","Yellow fever virus",11089,1,420550,420550,"YFV"
+"52","Culex_perexiguus",24,"Culex","perexiguus","Culex perexiguus","Japanese encephalitis virus",11072,1,943103,943103,"JEV"
+"53","Culex_perexiguus",24,"Culex","perexiguus","Culex perexiguus","West Nile virus",11082,1,943103,943103,"WNV"
+"54","Culex_sitiens",25,"Culex","sitiens","Culex sitiens","Japanese encephalitis virus",11072,1,162998,162998,"JEV"
+"55","Culex_sitiens",25,"Culex","sitiens","Culex sitiens","Murray Valley encephalitis virus",11079,1,162998,162998,"MVEV"
+"56","Culex_sitiens",25,"Culex","sitiens","Culex sitiens","West Nile virus",11082,1,162998,162998,"WNV"
+"57","Culex_sinaiticus",26,"Culex","sinaiticus","Culex sinaiticus","West Nile virus",11082,1,1799677,1799677,"WNV"
+"58","Culex_pseudovishnui",27,"Culex","pseudovishnui","Culex pseudovishnui","Japanese encephalitis virus",11072,1,100677,100677,"JEV"
+"59","Culex_pseudovishnui",27,"Culex","pseudovishnui","Culex pseudovishnui","West Nile virus",11082,1,100677,100677,"WNV"
+"60","Culex_duttoni",28,"Culex","duttoni","Culex duttoni",NA,NA,NA,1799675,1799675,NA
+"61","Culex_thalassius",29,"Culex","thalassius","Culex thalassius",NA,NA,NA,1799681,1799681,NA
+"62","Culex_tritaeniorhynchus",30,"Culex","tritaeniorhynchus","Culex tritaeniorhynchus","Japanese encephalitis virus",11072,1,7178,7178,"JEV"
+"63","Culex_tritaeniorhynchus",30,"Culex","tritaeniorhynchus","Culex tritaeniorhynchus","Murray Valley encephalitis virus",11079,1,7178,7178,"MVEV"
+"64","Culex_tritaeniorhynchus",30,"Culex","tritaeniorhynchus","Culex tritaeniorhynchus","Saint Louis encephalitis virus",11080,1,7178,7178,"SLEV"
+"65","Culex_tritaeniorhynchus",30,"Culex","tritaeniorhynchus","Culex tritaeniorhynchus","West Nile virus",11082,1,7178,7178,"WNV"
+"66","Culex_tritaeniorhynchus",30,"Culex","tritaeniorhynchus","Culex tritaeniorhynchus","Yellow fever virus",11089,1,7178,7178,"YFV"
+"67","Culex_mimeticus",31,"Culex","mimeticus","Culex mimeticus","Japanese encephalitis virus",11072,1,421623,421623,"JEV"
+"68","Culex_mimeticus",31,"Culex","mimeticus","Culex mimeticus","West Nile virus",11082,1,421623,421623,"WNV"
+"69","Culex_modestus",32,"Culex","modestus","Culex modestus","Japanese encephalitis virus",11072,1,545656,545656,"JEV"
+"70","Culex_modestus",32,"Culex","modestus","Culex modestus","Murray Valley encephalitis virus",11079,1,545656,545656,"MVEV"
+"71","Culex_modestus",32,"Culex","modestus","Culex modestus","West Nile virus",11082,1,545656,545656,"WNV"
+"72","Culex_theileri",33,"Culex","theileri","Culex theileri","Japanese encephalitis virus",11072,1,561267,561267,"JEV"
+"73","Culex_theileri",33,"Culex","theileri","Culex theileri","Saint Louis encephalitis virus",11080,1,561267,561267,"SLEV"
+"74","Culex_theileri",33,"Culex","theileri","Culex theileri","West Nile virus",11082,1,561267,561267,"WNV"
+"75","Culex_theileri",33,"Culex","theileri","Culex theileri","Yellow fever virus",11089,1,561267,561267,"YFV"
+"76","Culex_laticinctus",34,"Culex","laticinctus","Culex laticinctus","West Nile virus",11082,1,1464561,1464561,"WNV"
+"77","Culex_vagans",35,"Culex","vagans","Culex vagans",NA,NA,NA,1144254,1144254,NA
+"78","Culex_torrentium",36,"Culex","torrentium","Culex torrentium","Japanese encephalitis virus",11072,1,42433,42433,"JEV"
+"79","Culex_torrentium",36,"Culex","torrentium","Culex torrentium","West Nile virus",11082,1,42433,42433,"WNV"
+"80","Culex_quinquefasciatus",37,"Culex","quinquefasciatus","Culex quinquefasciatus","Dengue virus 2",11060,1,7176,7176,"DNV2"
+"81","Culex_quinquefasciatus",37,"Culex","quinquefasciatus","Culex quinquefasciatus","Japanese encephalitis virus",11072,1,7176,7176,"JEV"
+"82","Culex_quinquefasciatus",37,"Culex","quinquefasciatus","Culex quinquefasciatus","Murray Valley encephalitis virus",11079,1,7176,7176,"MVEV"
+"83","Culex_quinquefasciatus",37,"Culex","quinquefasciatus","Culex quinquefasciatus","Saint Louis encephalitis virus",11080,1,7176,7176,"SLEV"
+"84","Culex_quinquefasciatus",37,"Culex","quinquefasciatus","Culex quinquefasciatus","West Nile virus",11082,1,7176,7176,"WNV"
+"85","Culex_quinquefasciatus",37,"Culex","quinquefasciatus","Culex quinquefasciatus","Yellow fever virus",11089,1,7176,7176,"YFV"
+"86","Culex_pipiens",38,"Culex","pipiens","Culex pipiens","Japanese encephalitis virus",11072,1,7175,7175,"JEV"
+"87","Culex_pipiens",38,"Culex","pipiens","Culex pipiens","Murray Valley encephalitis virus",11079,1,7175,7175,"MVEV"
+"88","Culex_pipiens",38,"Culex","pipiens","Culex pipiens","Saint Louis encephalitis virus",11080,1,7175,7175,"SLEV"
+"89","Culex_pipiens",38,"Culex","pipiens","Culex pipiens","West Nile virus",11082,1,7175,7175,"WNV"
+"90","Culex_pipiens",38,"Culex","pipiens","Culex pipiens","Yellow fever virus",11089,1,7175,7175,"YFV"
+"91","Culiseta_ochroptera",39,"Culiseta","ochroptera","Culiseta ochroptera","West Nile virus",11082,1,866105,866105,"WNV"
+"92","Culiseta_litorea",40,"Culiseta","litorea","Culiseta litorea",NA,NA,NA,2579876,2579876,NA
+"93","Culiseta_fumipennis",41,"Culiseta","fumipennis","Culiseta fumipennis",NA,NA,NA,1538645,1538645,NA
+"94","Culiseta_morsitans",42,"Culiseta","morsitans","Culiseta morsitans","West Nile virus",11082,1,329107,329107,"WNV"
+"95","Aedes_cinereus",43,"Aedes","cinereus","Aedes cinereus","West Nile virus",11082,1,120872,120872,"WNV"
+"96","Aedes_rossicus",44,"Aedes","rossicus","Aedes rossicus","Japanese encephalitis virus",11072,1,761982,761982,"JEV"
+"97","Aedes_rossicus",44,"Aedes","rossicus","Aedes rossicus","Murray Valley encephalitis virus",11079,1,761982,761982,"MVEV"
+"98","Aedes_rossicus",44,"Aedes","rossicus","Aedes rossicus","West Nile virus",11082,1,761982,761982,"WNV"
+"99","Aedes_rossicus",44,"Aedes","rossicus","Aedes rossicus","Yellow fever virus",11089,1,761982,761982,"YFV"
+"100","Culiseta_annulata",45,"Culiseta","annulata","Culiseta annulata","Japanese encephalitis virus",11072,1,332058,332058,"JEV"
+"101","Culiseta_annulata",45,"Culiseta","annulata","Culiseta annulata","West Nile virus",11082,1,332058,332058,"WNV"
+"102","Culiseta_subochrea",46,"Culiseta","subochrea","Culiseta subochrea",NA,NA,NA,1788510,1788510,NA
+"103","Culiseta_alaskaensis",47,"Culiseta","alaskaensis","Culiseta alaskaensis",NA,NA,NA,1788509,1788509,NA
+"104","Culiseta_glaphyroptera",48,"Culiseta","glaphyroptera","Culiseta glaphyroptera",NA,NA,NA,2025599,2025599,NA
+"105","Culiseta_bergrothi",49,"Culiseta","bergrothi","Culiseta bergrothi",NA,NA,NA,866104,866104,NA
+"106","Aedes_japonicus",50,"Aedes","japonicus","Aedes japonicus","Japanese encephalitis virus",11072,1,140438,140438,"JEV"
+"107","Aedes_japonicus",50,"Aedes","japonicus","Aedes japonicus","Saint Louis encephalitis virus",11080,1,140438,140438,"SLEV"
+"108","Aedes_japonicus",50,"Aedes","japonicus","Aedes japonicus","West Nile virus",11082,1,140438,140438,"WNV"
+"109","Ochlerotatus_nigripes",51,"Ochlerotatus","nigripes","Ochlerotatus nigripes",NA,NA,NA,508662,508662,NA
+"110","Ochlerotatus_cataphylla",52,"Ochlerotatus","cataphylla","Ochlerotatus cataphylla","West Nile virus",11082,1,120871,120871,"WNV"
+"111","Ochlerotatus_leucomelas",53,"Ochlerotatus","leucomelas","Ochlerotatus leucomelas",NA,NA,NA,1788511,1788511,NA
+"112","Ochlerotatus_pionips",54,"Ochlerotatus","pionips","Ochlerotatus pionips",NA,NA,NA,1315219,1315219,NA
+"113","Ochlerotatus_communis",55,"Ochlerotatus","communis","Ochlerotatus communis","Japanese encephalitis virus",11072,1,329099,329099,"JEV"
+"114","Ochlerotatus_communis",55,"Ochlerotatus","communis","Ochlerotatus communis","Saint Louis encephalitis virus",11080,1,329099,329099,"SLEV"
+"115","Ochlerotatus_communis",55,"Ochlerotatus","communis","Ochlerotatus communis","West Nile virus",11082,1,329099,329099,"WNV"
+"116","Ochlerotatus_punctor",56,"Ochlerotatus","punctor","Ochlerotatus punctor","Japanese encephalitis virus",11072,1,46209,46209,"JEV"
+"117","Ochlerotatus_punctor",56,"Ochlerotatus","punctor","Ochlerotatus punctor","West Nile virus",11082,1,46209,46209,"WNV"
+"118","Ochlerotatus_hexodontus",57,"Ochlerotatus","hexodontus","Ochlerotatus hexodontus",NA,NA,NA,767797,767797,NA
+"119","Ochlerotatus_berlandi",58,"Ochlerotatus","berlandi","Ochlerotatus berlandi",NA,NA,NA,2579877,2579877,NA
+"120","Aedes_koreicus",59,"Aedes","koreicus","Aedes koreicus","Japanese encephalitis virus",11072,1,586676,586676,"JEV"
+"121","Aedes_geniculatus",60,"Aedes","geniculatus","Aedes geniculatus","Japanese encephalitis virus",11072,1,120874,120874,"JEV"
+"122","Aedes_geniculatus",60,"Aedes","geniculatus","Aedes geniculatus","West Nile virus",11082,1,120874,120874,"WNV"
+"123","Ochlerotatus_flavescens",61,"Ochlerotatus","flavescens","Ochlerotatus flavescens","West Nile virus",11082,1,662894,662894,"WNV"
+"124","Ochlerotatus_riparius",62,"Ochlerotatus","riparius","Ochlerotatus riparius",NA,NA,NA,743694,743694,NA
+"125","Ochlerotatus_euedes",63,"Ochlerotatus","euedes","Ochlerotatus euedes",NA,NA,NA,743690,743690,NA
+"126","Ochlerotatus_annulipes",64,"Ochlerotatus","annulipes","Ochlerotatus annulipes","Japanese encephalitis virus",11072,1,866103,866103,"JEV"
+"127","Ochlerotatus_annulipes",64,"Ochlerotatus","annulipes","Ochlerotatus annulipes","West Nile virus",11082,1,866103,866103,"WNV"
+"128","Ochlerotatus_cantans",65,"Ochlerotatus","cantans","Ochlerotatus cantans","Japanese encephalitis virus",11072,1,120869,120869,"JEV"
+"129","Ochlerotatus_cantans",65,"Ochlerotatus","cantans","Ochlerotatus cantans","West Nile virus",11082,1,120869,120869,"WNV"
+"130","Ochlerotatus_excrucians",66,"Ochlerotatus","excrucians","Ochlerotatus excrucians","Japanese encephalitis virus",11072,1,329103,329103,"JEV"
+"131","Ochlerotatus_excrucians",66,"Ochlerotatus","excrucians","Ochlerotatus excrucians","West Nile virus",11082,1,329103,329103,"WNV"
+"132","Ochlerotatus_detritus",67,"Ochlerotatus","detritus","Ochlerotatus detritus","Japanese encephalitis virus",11072,1,120873,120873,"JEV"
+"133","Ochlerotatus_detritus",67,"Ochlerotatus","detritus","Ochlerotatus detritus","West Nile virus",11082,1,120873,120873,"WNV"
+"134","Ochlerotatus_pulcritarsis",68,"Ochlerotatus","pulcritarsis","Ochlerotatus pulcritarsis",NA,NA,NA,1529939,1529939,NA
+"135","Ochlerotatus_hungaricus",69,"Ochlerotatus","hungaricus","Ochlerotatus hungaricus",NA,NA,NA,1810856,1810856,NA
+"136","Ochlerotatus_pullatus",70,"Ochlerotatus","pullatus","Ochlerotatus pullatus","West Nile virus",11082,1,120876,120876,"WNV"
+"137","Ochlerotatus_intrudens",71,"Ochlerotatus","intrudens","Ochlerotatus intrudens","Japanese encephalitis virus",11072,1,228921,228921,"JEV"
+"138","Ochlerotatus_intrudens",71,"Ochlerotatus","intrudens","Ochlerotatus intrudens","West Nile virus",11082,1,228921,228921,"WNV"
+"139","Ochlerotatus_diantaeus",72,"Ochlerotatus","diantaeus","Ochlerotatus diantaeus",NA,NA,NA,1129559,1129559,NA
+"140","Acartomyia_phoeniciae",73,"Acartomyia","phoeniciae","Acartomyia phoeniciae",NA,NA,NA,1548036,1548036,NA
+"141","Ochlerotatus_caspius",74,"Ochlerotatus","caspius","Ochlerotatus caspius","Japanese encephalitis virus",11072,1,120870,120870,"JEV"
+"142","Ochlerotatus_caspius",74,"Ochlerotatus","caspius","Ochlerotatus caspius","West Nile virus",11082,1,120870,120870,"WNV"
+"143","Ochlerotatus_caspius",74,"Ochlerotatus","caspius","Ochlerotatus caspius","Yellow fever virus",11089,1,120870,120870,"YFV"
+"144","Ochlerotatus_dorsalis",75,"Ochlerotatus","dorsalis","Ochlerotatus dorsalis","Japanese encephalitis virus",11072,1,663928,663928,"JEV"
+"145","Ochlerotatus_dorsalis",75,"Ochlerotatus","dorsalis","Ochlerotatus dorsalis","Saint Louis encephalitis virus",11080,1,663928,663928,"SLEV"
+"146","Ochlerotatus_dorsalis",75,"Ochlerotatus","dorsalis","Ochlerotatus dorsalis","West Nile virus",11082,1,663928,663928,"WNV"
+"147","Ochlerotatus_dorsalis",75,"Ochlerotatus","dorsalis","Ochlerotatus dorsalis","Yellow fever virus",11089,1,663928,663928,"YFV"
+"148","Acartomyia_zammitii",76,"Acartomyia","zammitii","Acartomyia zammitii",NA,NA,NA,1548034,1548034,NA
+"149","Coquillettidia_buxtoni",77,"Coquillettidia","buxtoni","Coquillettidia buxtoni",NA,NA,NA,2547966,2547966,NA
+"150","Coquillettidia_richiardii",78,"Coquillettidia","richiardii","Coquillettidia richiardii","West Nile virus",11082,1,1245328,1245328,"WNV"
+"151","Anopheles_pharoensis",79,"Anopheles","pharoensis","Anopheles pharoensis",NA,NA,NA,221566,221566,NA
+"152","Anopheles_arabiensis",80,"Anopheles","arabiensis","Anopheles arabiensis",NA,NA,NA,7173,7173,NA
+"153","Anopheles_coluzzii",81,"Anopheles","coluzzii","Anopheles coluzzii",NA,NA,NA,1518534,1518534,NA
+"154","Anopheles_fluviatilis",82,"Anopheles","fluviatilis","Anopheles fluviatilis",NA,NA,NA,111615,111615,NA
+"155","Anopheles_culicifacies",83,"Anopheles","culicifacies","Anopheles culicifacies",NA,NA,NA,139723,139723,NA
+"156","Anopheles_dthali",84,"Anopheles","dthali","Anopheles dthali",NA,NA,NA,262009,262009,NA
+"157","Anopheles_sacharovi",85,"Anopheles","sacharovi","Anopheles sacharovi",NA,NA,NA,72408,72408,NA
+"158","Anopheles_messeae",86,"Anopheles","messeae","Anopheles messeae",NA,NA,NA,41430,41430,NA
+"159","Anopheles_melanoon",87,"Anopheles","melanoon","Anopheles melanoon",NA,NA,NA,73143,73143,NA
+"160","Anopheles_labranchiae",88,"Anopheles","labranchiae","Anopheles labranchiae",NA,NA,NA,41428,41428,NA
+"161","Anopheles_atroparvus",89,"Anopheles","atroparvus","Anopheles atroparvus",NA,NA,NA,41427,41427,NA
+"162","Anopheles_maculipennis",90,"Anopheles","maculipennis","Anopheles maculipennis",NA,NA,NA,82858,82858,NA
+"163","Anopheles_pulcherrimus",91,"Anopheles","pulcherrimus","Anopheles pulcherrimus",NA,NA,NA,159154,159154,NA
+"164","Anopheles_stephensi",92,"Anopheles","stephensi","Anopheles stephensi",NA,NA,NA,30069,30069,NA
+"165","Anopheles_cinereus",93,"Anopheles","cinereus","Anopheles cinereus",NA,NA,NA,1632206,1632206,NA
+"166","Anopheles_claviger",94,"Anopheles","claviger","Anopheles claviger",NA,NA,NA,120868,120868,NA
+"167","Anopheles_hyrcanus",95,"Anopheles","hyrcanus","Anopheles hyrcanus",NA,NA,NA,138534,138534,NA
+"168","Anopheles_coustani",96,"Anopheles","coustani","Anopheles coustani",NA,NA,NA,139045,139045,NA
+"169","Anopheles_ziemanni",97,"Anopheles","ziemanni","Anopheles ziemanni",NA,NA,NA,345580,345580,NA
+"170","Anopheles_tenebrosus",98,"Anopheles","tenebrosus","Anopheles tenebrosus",NA,NA,NA,345579,345579,NA
+"171","Anopheles_plumbeus",99,"Anopheles","plumbeus","Anopheles plumbeus",NA,NA,NA,227531,227531,NA
+"172","Uranotaenia_balfouri",100,"Uranotaenia","balfouri","Uranotaenia balfouri",NA,NA,NA,1551375,1551375,NA
+"173","Anopheles_algeriensis",101,"Anopheles","algeriensis","Anopheles algeriensis",NA,NA,NA,1411912,1411912,NA
+"174","Culex_impudicus",102,"Culex","impudicus","Culex impudicus","West Nile virus",11082,1,1464560,1464560,"WNV"
+"175","Culex_martinii",103,"Culex","martinii","Culex martinii",NA,NA,NA,2306907,2306907,NA
+"176","Culex_europaeus",104,"Culex","europaeus","Culex europaeus","West Nile virus",11082,1,1464558,1464558,"WNV"
+"177","Culex_territans",105,"Culex","territans","Culex territans","Japanese encephalitis virus",11072,1,42431,42431,"JEV"
+"178","Culex_territans",105,"Culex","territans","Culex territans","Saint Louis encephalitis virus",11080,1,42431,42431,"SLEV"
+"179","Culex_territans",105,"Culex","territans","Culex territans","West Nile virus",11082,1,42431,42431,"WNV"
+"180","Culex_hortensis",106,"Culex","hortensis","Culex hortensis","West Nile virus",11082,1,1464559,1464559,"WNV"
+"181","Culex_deserticola",107,"Culex","deserticola","Culex deserticola","West Nile virus",11082,1,1795353,1795353,"WNV"

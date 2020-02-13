@@ -1,0 +1,10 @@
+status,rank,division,scientificname,commonname,uid,genus,species,subsp,modificationdate,vtaxid
+active,species,viruses,West Nile virus,,11082,,,,2018/10/25 00:00,11082
+active,,viruses,Dengue virus 1,,11053,,,,2018/10/26 00:00,11053
+active,,viruses,Dengue virus 2,,11060,,,,2018/10/26 00:00,11060
+active,,viruses,Dengue virus 3,,11069,,,,2019/12/30 00:00,11069
+active,,viruses,Dengue virus 4,,11070,,,,2015/07/10 00:00,11070
+active,species,viruses,Yellow fever virus,,11089,,,,2018/10/25 00:00,11089
+active,species,viruses,Japanese encephalitis virus,,11072,,,,2018/11/23 00:00,11072
+active,species,viruses,Saint Louis encephalitis virus,,11080,,,,2018/10/26 00:00,11080
+active,species,viruses,Murray Valley encephalitis virus,,11079,,,,2005/04/06 00:00,11079

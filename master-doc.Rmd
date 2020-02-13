@@ -1,0 +1,89 @@
+---
+title: "Working Report"
+author: "Daniel Smith"
+date: "10/02/2020"
+output: html_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+
+library(tidyverse)
+```
+
+
+# Mini-project 1: Role of biological traits, phylogenetic relatedness and invasion status in determining the role of mosquito species in disease transmission
+
+Many mosquito species are prolific vectors of debilitating diseases. Presence of these vectors incurs significant economic and health burdens on human populations in both developed and developing nations. Three distinct clades are of global importance from a public health perspective: *Aedes*, *Culex* and *Anopholes*. These three genera of mosquito are responsible for the majority of zoonotic transmissions of Culicidae (ref). How much does dengue cost us? (ref)
+
+The mechanism of vector competence and transmission likelihood is a significant area of research in the medical sciences. Increasing the scope of this research to a continent level approach that would allow incorporation of molecular and physiological research with that from spatial ecology and invasion science would improve stakeholder decision making processes, better informing organisations about the risk of vector-borne disease prevalence across regional scales. Implementing this more holistic approach would require the use of metrics that appropriately incorporate characteristics of both vector competence and distributional ecology of vectors.
+
+We suggest that incorporating trait-based approaches into existing multivariate methods might provide a framework that allows traits to explain the distribution and vector-borne disease risk component of mosquitoes across a regional scale and a changing climate.   
+
+## What influences vector status?
+
+The ability of a vector to competently transmit pathogens are governed by a host of physiological, behavioural and environmental processes. At an individual level, the interactions between a vector and its host determine the competence of vectoral transmission. These interactions are subject to constant change and adaptation as both lifecycles of virus and veector are relatively short. This interaction is known to significantly impact the fitness of individual mosuitoes. In many cases uptake of a pathogen into a mosquito can lead to a reduction in longevity or fecundity, but this varies within and across species. Environemental changes in temperature are most frequently associated wth increases in metabolism, developmental time and an in increase in the R0 of vector borne zoonoses. 
+
+The myriad of interactions, often across many biological scales means that attributing key factors to vectoral traits is a complex and multifaceted problem. These interactions between vector and pathogen are heavily constrained by evolutionary history, as most processes in ecology are. Considering this, identifying the evolutionary relationships of both flaviridae and mosquito communities may be the first step in identifying commonalities in physiology, behaviour and ecology. Such analysis may lead to easier prediction of vector potential, particularly in a changing climate, of invasive mosquitos. These mosquitoes continue to spread across countries and continents as new areas become viable habitats for colonisation, and consequently introducing the risk of disease spread to naive populations.
+
+
+###  Species Selection
+
+Mosquitoes are specious and present on every continent except Antarctica. Current estimates of species present in the Palearctic region at 7 genera and 139 species. This number is likely underestimated, as mosquitoes are cryptic species, remaining very difficult to identify by all but experienced entomologists. This is further confounded by a mosquito’s complex life-cycle, of which they go through many stages from egg, larvae and adult. Recent advents in genetic sequencing means that identification of mosquitoes can now be compared and ratified both taxonomically and genetically, most notably resulting in the splitting of the Aedes genus into both Aedes and Ochlerotatus. This upheaval in the taxonomic history of Culicidae has resulted in many species with multiple taxonomic names that are used interchangeably.
+
+To try and account for the discrepancy and confusion around Culicidae taxonomy, large external and internationally relevant databases should be incorporated into analysis to ensure confusion between species is minimised. For this purpose the NCBI taxonomic database provides each recognised organism with a unique identifier that can be used in place on its scientific name, reducing the likelihood of misidentification of a species. 
+
+Matching relevant species to their Unique Identifiers (UID) in NCBI can be accomplished by systematic searching of their database to return a unique list of organisms and their corresponding names and UIDS. This list of UIDs can then be used to determine what mosquitoes have genetic data available for sequencing and phylogenetic reconstruction (using NCBI GenBank), and those that are known to be associated with disease vectors of the genus Flaviridae (Using the ENHanCEd Infectious Disease Databases 2).
+
+![Fig 1. Generalised workflow pattern showing restriction and refinement methodology for selecting suitable mosquito species that have available data according to the NCBI Taxonomy and GenBank databases as well as the ENHanCEd Infectious Disease Database 2 (EID2)](plots/workflow-1.png)
+
+After this refinement process, the remaining species are narrowed down from 139, to 107. Which is then further split into vectors with an established link to Flaviridae species and those that don't. This split is governed by the interactions present in the EID2 database, which mines PubMED literature for gene sequences of pathogens and animals, and where these genes are present in more than five papers, an interaction is assumed and the animal species present is recorded as a vector of the pathogen species. This does not mean that the species interactions are competent and definitive vectors of the disease, but it does provide a useful large overview of potential vector candidates. 
+
+```{r echo=FALSE}
+library(tidyverse)
+library(formattable)
+
+# All species from Franics' list
+w = read_csv("data/occurance.csv") %>% separate(species, into = c("genus", "species"), sep = " ") %>% count(genus) %>% 
+  rename(Genus = genus, `Reference List` = n)
+
+# Speceis after resolving taxonomy names
+x = read_csv("data/resolved-ncbi-species.csv") %>% count(genus) %>% rename(`NCBI Taxonomy` = n, Genus = genus)
+
+# Species with GenBank sequences
+xy = 
+  read_csv("data/species-master-interaction.csv") %>% distinct(genus, species) %>% 
+  count(genus) %>% rename(`NCBI GenBank` = n, Genus = genus)
+
+
+# Sepcies after EID2
+y = 
+  read_csv("data/species-master-interaction.csv") %>% filter(interaction == 0) %>% distinct(genus, species) %>% 
+  count(genus) %>% rename(`Non-Vectors` = n, Genus = genus)
+
+z = read_csv("data/species-master-interaction.csv") %>% filter(interaction == 1) %>% distinct(genus, species) %>% 
+  count(genus) %>% rename(Vectors = n, Genus = genus)
+
+full_join(w,x) %>% full_join(xy) %>% full_join(y) %>% full_join(z) %>%
+  formattable::formattable(list(`NCBI GenBank` = color_tile("white", "orange"),
+                                `Vectors` = color_tile("white", "orange"),
+                                `Non-Vectors` = color_tile("white", "orange"),
+                                `Reference List` = color_tile("white", "orange"),
+                                `NCBI Taxonomy` = color_tile("white", "orange")), caption = "Table 1. The number of species present in each Genera of Culicidae after filtering by data availability in the workflow listed in Fig 1. Resolving taxonomy using NCBI results in significant changes of genera from Aedes to Ochlerotatus. Despite significant genetic and taxonomic data availability for Anopheles species, they have little role in Flarividae transmission. ")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
