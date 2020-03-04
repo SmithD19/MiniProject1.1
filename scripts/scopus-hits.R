@@ -28,7 +28,7 @@ set_api_key("0358c060b53f10b73724542975cbc013")
 # function to return hits
 get_hits <-
   function(x) {
-    y = scopus_search(x)
+    y = scopus_search(x, max_count = 0)
     y = y$total_results
     return(y)
   }
@@ -120,6 +120,18 @@ get_hits(search)
 
 
 
+# Narrow by literature ----------------------------------------------------
+spp <- ncbi_spp$scientificname
+# naive_spp_hits <- map(spp, ~ map_dbl(., get_hits))
+naive_spp_hits <- naive_spp_hits %>% unlist()
+
+names(naive_spp_hits) <- spp
+
+sort(naive_spp_hits, decreasing = TRUE)
+
+spp %>% cbind(naive_spp_hits) %>% as.data.frame()
+
+naive_spp_hits %>% as.data.frame()
 
 
 
