@@ -1,0 +1,65 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r setup}
+knitr::opts_knit$set(root.dir = normalizePath("../"),
+                     message = FALSE,
+                     warning = FALSE)
+
+library(tidyverse)
+```
+
+```{r}
+scopushits <- read_csv("species-hits.csv") %>% janitor::clean_names()
+topten <- scopushits %>% arrange(desc(scopus_hits))
+topten %>% knitr::kable()
+```
+
+Traits for these top ten researched species from our list
+```{r}
+data <- 
+  topten %>% 
+  mutate(
+    # Virus matrix
+    WNV = NA, JEV = NA,
+    DNV1 = NA, DNV2 = NA, DNV3 = NA,DNV4 = NA,
+    YFV = NA, MVEV = NA, SLEV = NA,
+    # Trait matrix
+    voltininsm = NA,
+    overwintering = NA,
+    genomesize = NA,
+    birdbiting = NA,
+    humanbiting = NA, # little known about the Culex genera
+    mammalbiting = NA,
+    reptilebiting = NA,
+    amphibianbiting = NA,
+    salinity = NA,
+    flightrange = NA,
+    # Geographic and spatial vars
+    geographicrange = NA,
+    invasivestatus = NA,
+    maxlatitude = NA,
+    minlatitude = NA,
+    # Phylogenetic variance
+    phylodistance = NA
+  ) 
+```
+
+```{r}
+trait <- read_csv("data/mosquitoTraits.csv")
+
+larv <- trait %>% select(
+  species = mosquitoSpecies,
+  larvalContainer
+)
+
+bind <- separate(larv, species, c("Genus", "Species"), " ")
+
+
+data %>% separate(species, c("Genus", "Species"))
+
+left_join(data %>% separate(species, c("Genus", "Species")), bind, by = "Species") %>% write_csv("temp.csv")
+```
+

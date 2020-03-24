@@ -1,0 +1,63 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+knitr::opts_knit$set(root.dir = normalizePath("../"),
+                     message = FALSE,
+                     warning = FALSE)
+```
+
+
+```{r}
+library(tidyverse)
+library(ape)
+```
+
+```{r}
+phylo_mosq <- read.nexus("phylo/mosquito/fasta/mega-aligned/bayes/co1.nex.con.tre")
+mosq_mat <- cophenetic.phylo(phylo_mosq)
+mat = vcv.phylo(phylo_mosq)
+```
+
+```{r}
+phylo_vir <- read.nexus("phylo/virus/virus-genomes/mrbayes.nex.noclock.mb.con.tre")
+vir_mat <- cophenetic.phylo(phylo_vir)
+```
+
+```{r}
+vector_mat <- 
+  read_csv("interactions-tidy-format.csv") %>%
+  pivot_wider(id_cols = c(label, genus), names_from = virus_code, values_from = interaction) %>% 
+  select(-"NA")
+```
+
+```{r}
+library(brms)
+
+match <- intersect(rownames(mat), foo$label)
+
+foo1 <- foo %>% filter(label %in% match)
+
+mat2 <- subset(mat, rownames(mat) %in% match)
+```
+
+```{r}
+m1.1 <- brm(
+  data = foo1,
+   WNV ~ genus:DNV1 + (1|label),
+  family = bernoulli,
+  cov_ranef = list(label = mat),
+  control = list(adapt_delta = 0.9),
+  cores = 4
+)
+
+conditional_effects(m1.1)
+
+```
+
+
+
+
+
